@@ -136,6 +136,8 @@ body { font-family: 'Lato', sans-serif; font-size:16px; background-color: #50505
 
 #mainImg { width: 100%; }
 
+
+/*stop*/
 .courseStuff, .calendarStuff, .lowerPanelNav, .footerStuff { margin:0; }
 .courseInfo { 
     position:relative;
