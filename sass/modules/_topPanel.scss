@@ -4,7 +4,24 @@
     .bannerContainer { 
         padding:0; 
     }
+    .topPanel { 
+        width:100%; 
+        height:50px; 
+        background-color:#383838; 
+        position:relative; 
 
+        i { 
+            position:absolute; 
+            top:-20px; 
+            left:80%; 
+            font-size:3rem; 
+            color:#383838; 
+        }
+
+        p { 
+            padding:15px 0 0 20px; 
+         }
+    }
     .profPanel{
         width:445px; 
         height:150px; 
@@ -20,7 +37,9 @@
         .profPanelText {
             position:relative; top:10px; left:20px; 
 
-            span { margin-right:8px; }
+            span { 
+                margin-right:8px; 
+            }
 
             p:first-child {
                 font-size:3rem; font-weight:300; margin-bottom:3px; 
@@ -28,9 +47,13 @@
                 span { color:#9e9e9e; }
             }
     
-            p:nth-child(2) { font-size:2.2rem; color:#690800; margin-top:-8px; }
+            p:nth-child(2) { 
+                font-size:2.2rem; color:#690800; margin-top:-8px; 
+            }
 
-            ul { color:#9e9e9e; padding-top:5px; font-weight:300; }
+            ul { 
+                color:#9e9e9e; padding-top:5px; font-weight:300; 
+            }
         }
 
 
