@@ -1,6 +1,6 @@
 .mainHead {
     height:110px;
-    background-color: #ffffff;
+    background-color: blue;
 
     .clLogo { 
         position:relative;
@@ -24,10 +24,15 @@
         height: 45px;
         color:white;
         z-index: 25;
-     span { position:relative; top: 8px; font-size:3rem; }
+        span { 
+            position:relative; 
+            top: 8px; 
+            font-size:3rem; 
+        }
     
         .dropdown-menu { 
-            padding-top:0; margin-top:25px; 
+            padding-top:0; 
+            margin-top:25px; 
 
             .topPanel { 
                 width:100%; 
@@ -62,7 +67,7 @@
                     font-size:1.5rem; 
                     line-height:1.5rem; 
 
-                    span { color:red;font-size:1.5rem; }
+                    span { color:pink;font-size:1.5rem; }
                 }
 
                 .circleI { 
@@ -87,9 +92,15 @@
             }
         }
 
-        .discussionDrop { margin:10px 0; width:200px; padding-bottom:0; }
-        .dropdown-menu-right { right:-15px; }
-    
+
+        .dropdown-menu-right { 
+            right:-15px; 
+        }
+        .discussionDrop { 
+            margin:10px 0; 
+            width:200px; 
+            padding-bottom:0;
+         }
     }
 }
 
