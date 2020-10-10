@@ -35,13 +35,21 @@
                 background-color:#383838; 
                 position:relative; 
 
-                i { position:absolute; top:-20px; left:80%; font-size:3rem; color:#383838; }
+                i { 
+                    position:absolute; 
+                    top:-20px; 
+                    left:80%; 
+                    font-size:3rem; 
+                    color:#383838; 
+                }
 
-                p { padding:15px 0 0 20px;  }
+                p { 
+                    padding:15px 0 0 20px; 
+                 }
             }
 
             li { 
-                position:relative; margin-right:0; /*padding:10px 0;*/
+                position:relative; margin-right:0; 
 
                 .divider { margin:0; }
 
