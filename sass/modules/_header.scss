@@ -1,7 +1,10 @@
 .mainHead {
     height:110px;
     background-color: blue;
-
+   
+    .bannerContainer { 
+        padding:0; 
+    }
     .clLogo { 
         position:relative;
         top: 50%;
@@ -34,54 +37,12 @@
             padding-top:0; 
             margin-top:25px; 
 
-            li { 
-                position:relative; margin-right:0; 
-
-                .divider { margin:0; }
-
-                a { padding:10px 0; }
-
-                .listText { 
-                    position:absolute; 
-                    top:7px; 
-                    left:60px; 
-                    font-size:1.5rem; 
-                    line-height:1.5rem; 
-
-                    span { color:pink;font-size:1.5rem; }
-                }
-
-                .circleI { 
-                    width:30px; height:30px;
-                     -moz-border-radius:50%; 
-                     border-radius:50%; 
-                     background-color:#eff3f4; 
-                     color:#ccc; 
-                     text-align:center;
-                     font-size:1.7rem;
-                     margin:0 10px;
-                     padding-top:5px;
-                }
-            }
-
-            li:hover .circleI {
-                background-color:#fff;
-            }
-
-            li:hover .emptyCircle {
-                background-color:#fff;
-            }
-        }
-
-
+           
         .dropdown-menu-right { 
             right:-15px; 
-        }
-        .discussionDrop { 
-            margin:10px 0; 
-            width:200px; 
-            padding-bottom:0;
          }
+        
+        }
     }
-}
 
+}
