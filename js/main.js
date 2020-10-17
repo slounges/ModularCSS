@@ -17,9 +17,13 @@ fetch('./data/classData.json') //fetch statement is an ajax request
 
 function handleData (data){
     let coursename = document.querySelector(".profPanelText .text-muted");
-   
-    
     coursename.innerHTML = data.coursename + " - " + data.coursecode;
+
+    let profname =  document.querySelector('#profname');
+    profname.innerHTML = "Professor - " + data.profname;
+
+    let classtime = document.querySelector('.profPanelText .list-inline');
+    classtime.innerHTML =  "<li>" + "</li>" + "&#9200  " + data.classtime[0] + "<li>" + "</li>" + "&#9200  "  + data.classtime[1]
 
 }
 })();
