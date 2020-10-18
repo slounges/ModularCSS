@@ -9,6 +9,9 @@ to place the data in a data store for a course homepage.
 ## Tools
 HTML, CSS, SASS, JS, AJAX
 
+## DEV Notes
+https://docs.google.com/document/d/1_vFcWd3XMhoOFV7Wvwkg_MoJB9ki1crgD6yDWdRMa7g/edit?usp=sharing
+
 ## MIT Liscence
 
 Copyright (c) [2020] [Shannon Lounges]
