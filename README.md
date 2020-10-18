@@ -1,7 +1,14 @@
-# ModularCss
+# ModularCss + Dynamic Content
 
 ## Description
-This repo is for a modular css assignment to practice rewriting CSS for a course home page as SASS. 
+
+This repo is for assignments that were focused on:
+Practicing re-writing CSS with SASS and using Fetch for an AJAX request to recieve data from a JSON file
+to place the data in a data store for a course homepage.
+
+## Tools
+HTML, CSS, SASS, JS, AJAX
+
 ## MIT Liscence
 
 Copyright (c) [2020] [Shannon Lounges]
