@@ -23,7 +23,7 @@ function handleData (data){
     profname.innerHTML = "Professor - " + data.profname;
 
     let classtime = document.querySelector('.profPanelText .list-inline');
-    classtime.innerHTML =  "<li>" + "</li>" + "&#9200  " + data.classtime[0] + "<li>" + "</li>" + "&#9200  "  + data.classtime[1]
+    classtime.innerHTML = "&#9200; " + "<li>" + data.classtime[0] + "<li>" + "<li>" + "&#9200; " + "<li>"  + data.classtime[1]
 
 }
 })();

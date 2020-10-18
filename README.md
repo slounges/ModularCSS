@@ -1,7 +1,9 @@
-# ModularCss
+# ModularCss + # Dynamic Content
 
 ## Description
+
 This repo is for a modular css assignment to practice rewriting CSS for a course home page as SASS. 
+
 ## MIT Liscence
 
 Copyright (c) [2020] [Shannon Lounges]
